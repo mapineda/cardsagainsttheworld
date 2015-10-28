@@ -80,3 +80,7 @@ object {
   height: 100%;
   width: 100%;
 }
+
+input {
+  width: 50%;
+}
