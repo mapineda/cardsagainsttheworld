@@ -9,7 +9,15 @@
 			{question: 'Backbone is a ___________'},
 			{question: 'This guy __________(s)'}
 		];
+		this.addCard = function() {
+			console.log(this.newCard.question);
+			this.cards.push({
+				question: this.newCard.question
+			});
+			console.log(this.cards);
 
+			this.newCard.question = null;
+		};
 
 		return this;
 	});
