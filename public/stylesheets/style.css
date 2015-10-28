@@ -65,3 +65,22 @@ footer {
 footer .heart {
   color:#cf2e31;
 }
+
+nav.tabs {
+  max-width: 55%;
+}
+nav.tabs a {
+  display: inline-block;
+  color: black;
+  padding: 3px 20px 20px;
+  margin-right: 1px;
+}
+
+object {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  width: 50%;
+}
