@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/stylesheets/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
         <script src="/javascripts/app.js"></script>
         <script src="/javascripts/controllers/cardsController.js"></script>
         <script src="/javascripts/controllers/headerController.js"></script>
@@ -20,15 +20,14 @@
           <h1 class="pull-left">{{ headerCtrl.title }}</h1>
         </header>
 
-        <section id="cards" class="container-fluid" ng-controller="cardsController as cardCtrl">
-          <div class="row">
+         <nav class="tabs">
+          <a ui-sref-active="active" ui-sref="home">Home </a>
+          <a ui-sref-active="active" ui-sref="new"> Add a New Card</a>
+          <a ui-sref-active="active" ui-sref="rules"> Rules</a>
+        </nav>
 
-            <div class="col-sm-6 col-md-6 col-lg-4" ng-repeat="card in cardCtrl.cards">
-              <card></card>
-            </div>
-
-          </div>
-        </section>
+        <div ui-view>
+       </div> 
 
       <footer>
         <p>Made with <span class="heart">♥︎</span> at General Assembly</p>
