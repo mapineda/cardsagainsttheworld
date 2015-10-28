@@ -3,17 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cards Against Assembly™</title>
         <link rel="stylesheet" href="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
         <link rel="stylesheet" href="/stylesheets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-        <!-- ANGULAR ROUTE -->
-         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
         <script src="/javascripts/app.js"></script>
         <script src="/javascripts/controllers/cardsController.js"></script>
-       <script src="/javascripts/controllers/headerController.js"></script>
-       <script src="/javascripts/directives/cardViews.js"></script>
+        <script src="/javascripts/controllers/headerController.js"></script>
+        <script src="/javascripts/directives/cardView.js"></script>
     </head>
     <body>
       <div class="container">
@@ -25,11 +24,7 @@
           <div class="row">
 
             <div class="col-sm-6 col-md-6 col-lg-4" ng-repeat="card in cardCtrl.cards">
-
-              <!-- <div class="card" ng-click="flipCard=!flipCard">
-                <h4 ng-show="flipCard" class="card-title">{{ card.question }}</h4>
-                <h6>Cards Against Assembly</h6>
-              </div> -->
+              <card></card>
             </div>
 
           </div>
@@ -38,9 +33,6 @@
       <footer>
         <p>Made with <span class="heart">♥︎</span> at General Assembly</p>
       </footer>
-     <!--  MODULES -->
-     <!--  SERVICES -->
-      <!-- DIRECTIVES -->
       </div>
     </body>
 </html>
