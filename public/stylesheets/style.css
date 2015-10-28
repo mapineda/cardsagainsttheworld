@@ -75,3 +75,8 @@ nav.tabs a {
   padding: 3px 20px 20px;
   margin-right: 1px;
 }
+
+object {
+  height: 100%;
+  width: 100%;
+}
