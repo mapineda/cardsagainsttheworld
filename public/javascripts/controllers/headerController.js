@@ -3,5 +3,7 @@
 
 	app.controller('headerController', function() {
 		this.title = 'Cards Against Assembly';
+
+		return this;
 	});
 })();
