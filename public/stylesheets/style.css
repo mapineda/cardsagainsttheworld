@@ -37,6 +37,7 @@ h1:after, .card h6:after {
   padding: 1rem;
   min-height: 16rem;
   position: relative;
+  max-width: 300px;
 }
 
 .card h6 {
@@ -74,11 +75,6 @@ nav.tabs a {
   color: black;
   padding: 3px 20px 20px;
   margin-right: 1px;
-}
-
-object {
-  height: 100%;
-  width: 100%;
 }
 
 input {
