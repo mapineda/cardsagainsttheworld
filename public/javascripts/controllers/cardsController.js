@@ -4,10 +4,15 @@
 	app.controller('cardsController', function() {
 //define parameters
 		this.cards = [
-			{question: 'I get by with a little help from ______' }, 
-			{question: 'The field trip was ruined by _______' },
-			{question: 'Backbone is a ___________'},
-			{question: 'This guy __________(s)'}
+			{question: 'Define HTTP.' },
+			{question: 'Explain Box Model.' },
+			{question: 'Is JavaScript case sensitive?'},
+			{question: 'What is the difference between null and undefined?'},
+			{question: 'Give an example of where an AJAX request would be used.' },
+			{question: 'Name 3 of the minimum HTML elements needed for HTML documents.'},
+			{question: 'Define JSON.'},
+			{question: 'What is an AJAX request?'},
+			{question: 'Define URL'}
 		];
 		//create new card
 		this.addCard = function() {
@@ -23,5 +28,3 @@
 		return this;
 	});
 })();
-
-
