@@ -3,7 +3,7 @@
 
 	app.config(function($stateProvider, $urlRouterProvider) {
 		$urlRouterProvider.otherwise('/');
-
+// using state as opposed for wise
 		$stateProvider
 	    .state('home', {
 	      url: '/',

@@ -15,4 +15,19 @@ router.get('/cards', function(req, res, next) {
 	});
 });
 
+router.post('/cards', function(req, res, next) {
+	var question = req.body.question;  
+
+    var newCard = Card({
+        question: question
+    });
+
+    // Save the user
+    newCard.save(function(err) {
+        if (err) console.log(err);
+
+        res.send('Card created!');
+    });
+});
+
 module.exports = router;
