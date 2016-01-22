@@ -1,9 +1,7 @@
-(function() {
-	var app = angular.module('CardsAgainstAssembly');
+var portfolio = angular.module('CardsAgainstAssembly');
 
-	app.controller('headerController', function() {
+	portfolio.controller('headerController', function() {
 		this.title = 'Cards Against Assembly';
 
 		return this;
 	});
-})();
