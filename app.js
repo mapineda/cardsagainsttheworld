@@ -26,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
+/*replace with own DB*/
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://test_user:password@ds045734.mongolab.com:45734/ga_cards');
 
