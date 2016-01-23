@@ -78,5 +78,32 @@ nav.tabs a {
 }
 
 input {
-  width: 50%;
+  width: 75%;
+}
+
+.email {
+  margin: 20px;
+  position: relative;
+}
+.commentBox {
+  background: #231e1e;
+  border-color: black;
+  color: white;
+  padding: 1rem;
+  min-height: 16rem;
+  position: relative;
+  max-width: 300px;
+}
+
+.commentBox h6 {
+  position: absolute;
+  font-size: 0.6rem;
+  margin-top: 1.618rem;
+  opacity: 0.2;
+  bottom: 0.618rem;
+  left: 1rem;
+}
+.commentBox h6:after {
+  font-size: 60%;
+  margin-left: 1px;
 }
