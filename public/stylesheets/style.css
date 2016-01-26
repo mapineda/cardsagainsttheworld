@@ -58,16 +58,9 @@ h1:after, .card h6:after {
   margin: 0;
 }
 
-footer {
-  text-align: center;
-  margin-top: 2rem;
-  color: silver;
-  font-size: 0.6rem;
-}
-footer .heart {
-  color:#cf2e31;
-}
-
+/***************
+* NAVIGATION BAR *
+*****************/
 nav.tabs {
   max-width: 75%;
 }
@@ -77,6 +70,7 @@ nav.tabs a {
   padding: 3px 20px 20px;
   margin-right: 1px;
 }
+
 
 input {
   width: 75%;
