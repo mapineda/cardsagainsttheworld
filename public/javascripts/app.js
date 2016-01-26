@@ -14,6 +14,9 @@
 	    }).state('rules', {
 	    	url: '/rules',
 	    	templateUrl: '_rulesView.html',
-	    });//TODO: add _contactView.html state
+	    }).state('contact', {
+				url:'/contact',
+				templateUrl: '_contactView.html'
+			});
 	});
 })();
