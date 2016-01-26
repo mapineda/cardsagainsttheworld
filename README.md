@@ -1,7 +1,7 @@
 # Cards Against Coders
-MEAN stack app inspired by Cards Against Humanity and the technical interview process.
+MEAN stack app inspired by Cards Against and the front-end dev interview process.
 
-# Technology Used
+## Technology Used
 
 Technology used in this project included:
 
@@ -11,7 +11,7 @@ Back End: MongoDB, Mongoose, Express, Node.js
 
 Version Control: Git, Gitflow,
 
-# Author
+## Author
 
 Marco Pineda
 
@@ -22,4 +22,4 @@ Check out my portfolio
 
 
 
-# Licensing
+## Licensing
