@@ -28,8 +28,8 @@ app.use('/users', users);
 
 /*replace with own DB*/
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb://test_user:password@ds045734.mongolab.com:45734/ga_cards');
-mongoose.connect('mongodb://admin:admin1234@ds047365.mongolab.com:47365/cards');
+mongoose.connect('mongodb://test_user:password@ds045734.mongolab.com:45734/ga_cards');
+// mongoose.connect('MONGO_DB_CONN_KARDS');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
