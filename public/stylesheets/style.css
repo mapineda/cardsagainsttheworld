@@ -90,8 +90,12 @@ input {
 
 .contact-row {
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
   height: 100%
+}
+
+.contact-list {
+  margin-top: 20px;
 }
 
 .commentBox {
@@ -115,4 +119,12 @@ input {
 .commentBox h6:after {
   font-size: 60%;
   margin-left: 1px;
+}
+
+/********
+* FOOTER *
+**********/
+
+footer {
+  margin-bottm: 0;
 }
