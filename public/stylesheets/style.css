@@ -71,6 +71,9 @@ nav.tabs a {
   margin-right: 1px;
 }
 
+button {
+  margin-bottom: 10px;
+}
 
 input {
   width: 75%;
