@@ -18,7 +18,7 @@ Marco Pineda
 Follow me on [twitter]('http://twitter.com/marcoapineda13')
 
 Check out my portfolio
-| [marcopineda.com]('http://marcopineda.com') |
+ [marcopineda.com]('http://marcopineda.com') |
 
 
 
