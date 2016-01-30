@@ -19,7 +19,7 @@ Follow me on [twitter]('http://twitter.com/marcoapineda13')
 
 
 
-Check out my portfolio
+Check out a sweet portfolio
  [marcopineda.com]('http://marcopineda.com') |
 
 
